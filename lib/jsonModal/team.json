@@ -1,0 +1,42 @@
+{
+    "code": "Participant 1",
+    "competetionId": "-LvdpIWJSPzYTeIdrZre",
+    "competetionName": "Marketing",
+    "data": [{
+        "Round 1": {
+            "-Lvdu-8fdLjfOl6xYAzN": {
+                "JudgeName": "Judge 1",
+                "score": 55
+            },
+            "-LvdwVCb8mIUq0zMtbPd": {
+                "JudgeName": "Judge 2",
+                "score": 66
+            }
+        },
+        "Video": {
+            "-Lvdu08fdLjfOl6xYAzN": {
+                "JudgeName": "Judge 1",
+                "score": 55
+            },
+            "-LvdwVnb8mIUq0zMtbPd": {
+                "JudgeName": "Judge 2",
+                "score": 66
+            }
+        },
+        "Audio": {
+            "-Lvdu18fdLjfOl6xYAzN": {
+                "JudgeName": "Judge 1",
+                "score": 55
+            },
+            "-LvdwVmb8mIUq0zMtbPd": {
+                "JudgeName": "Judge 2",
+                "score": 66
+            }
+        }
+    }],
+    "email": "naveenyadav",
+    "id": 0,
+    "participantId": "-LvdrRpCICPBYX2VdWJo",
+    "points": 0.0,
+    "qualified": true
+}

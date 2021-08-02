@@ -1,0 +1,54 @@
+{
+  "project_info": {
+    "project_number": "228873895791",
+    "project_id": "competitionsapp-c1125",
+    "storage_bucket": "competitionsapp-c1125.appspot.com"
+  },
+  "client": [
+    {
+      "client_info": {
+        "mobilesdk_app_id": "1:228873895791:android:963ef321a24179d4bc329a",
+        "android_client_info": {
+          "package_name": "com.practr.practrCompetitions"
+        }
+      },
+      "oauth_client": [
+        {
+          "client_id": "228873895791-1gplssvqj7iu1h9u34a9uratuidov7ck.apps.googleusercontent.com",
+          "client_type": 1,
+          "android_info": {
+            "package_name": "com.practr.practrCompetitions",
+            "certificate_hash": "b52f757b339e6e59a20d0887b998f1e73252a61c"
+          }
+        },
+        {
+          "client_id": "228873895791-73l7hgrrdf0stre46be8m7ta6j3r1gdf.apps.googleusercontent.com",
+          "client_type": 3
+        }
+      ],
+      "api_key": [
+        {
+          "current_key": "AIzaSyAh8WSgr7TzLJVUdgDZPFEFToeE2hBymKw"
+        }
+      ],
+      "services": {
+        "appinvite_service": {
+          "other_platform_oauth_client": [
+            {
+              "client_id": "228873895791-73l7hgrrdf0stre46be8m7ta6j3r1gdf.apps.googleusercontent.com",
+              "client_type": 3
+            },
+            {
+              "client_id": "228873895791-m55spdfv1sfsbo5f6tv6ggj141l8msu7.apps.googleusercontent.com",
+              "client_type": 2,
+              "ios_info": {
+                "bundle_id": "com.practr.practrCompetitions"
+              }
+            }
+          ]
+        }
+      }
+    }
+  ],
+  "configuration_version": "1"
+}

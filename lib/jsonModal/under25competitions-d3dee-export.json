@@ -1,0 +1,1333 @@
+{
+  "competetion" : {
+    "-LvdpIWJSPzYTeIdrZre" : {
+      "id" : "-LvdpIWJSPzYTeIdrZre",
+      "name" : "Marketing",
+      "ongoing" : true,
+      "organiserId" : "X0IpF4H6zeXnGFZbPgveyfr5nxb2"
+    },
+    "-LveIo1lmV6GQfOlDMjH" : {
+      "id" : "-LveIo1lmV6GQfOlDMjH",
+      "name" : "Wanko Challenge",
+      "ongoing" : true,
+      "organiserId" : "KaqO8NFYVxN3vowJdBUMvlxEdrm2"
+    }
+  },
+  "judges" : {
+    "-LvdseOY6z9OssVrovCm" : {
+      "completed" : true,
+      "name" : "Judge 1",
+      "taskSecret" : "A05NRSS=",
+      "uDeviceId" : "f68cf2fa1e294972",
+      "uniqueId" : "JUDGE 1A05NRSS=f68cf2fa1e294972"
+    },
+    "-LvduQTHhz4xgTI9TFpQ" : {
+      "completed" : true,
+      "name" : "Judge 2",
+      "taskSecret" : "A05NRSS=",
+      "uDeviceId" : "f68cf2fa1e294972",
+      "uniqueId" : "JUDGE 2A05NRSS=f68cf2fa1e294972"
+    },
+    "-LvdzuSoM5P6HBJkYClV" : {
+      "completed" : true,
+      "name" : "Judge 3",
+      "taskSecret" : "A05NRSS=",
+      "uDeviceId" : "f68cf2fa1e294972",
+      "uniqueId" : "JUDGE 3A05NRSS=f68cf2fa1e294972"
+    },
+    "-LveZ9h1mrT9KrdO774H" : {
+      "completed" : true,
+      "name" : "Judge3",
+      "taskSecret" : "A05NRSS=",
+      "uDeviceId" : "f68cf2fa1e294972",
+      "uniqueId" : "JUDGE3A05NRSS=f68cf2fa1e294972"
+    },
+    "-LvebnPGSS9F-MTcSQUR" : {
+      "completed" : true,
+      "name" : "judge 4",
+      "taskSecret" : "A05NRSS=",
+      "uDeviceId" : "f68cf2fa1e294972",
+      "uniqueId" : "JUDGE 4A05NRSS=f68cf2fa1e294972"
+    },
+    "-LvecUkmM8LQbvKh8lPO" : {
+      "completed" : true,
+      "name" : "judge 5",
+      "taskSecret" : "A05NRSS=",
+      "uDeviceId" : "f68cf2fa1e294972",
+      "uniqueId" : "JUDGE 5A05NRSS=f68cf2fa1e294972"
+    },
+    "-LveeXIo2ybyoQVw4GS4" : {
+      "completed" : true,
+      "name" : "judge 6",
+      "taskSecret" : "A05NRSS=",
+      "uDeviceId" : "f68cf2fa1e294972",
+      "uniqueId" : "JUDGE 6A05NRSS=f68cf2fa1e294972"
+    },
+    "-LvefmmJUqXJqH3x-az9" : {
+      "completed" : false,
+      "name" : "judge 7",
+      "taskSecret" : "A05NRSS=",
+      "uDeviceId" : "f68cf2fa1e294972",
+      "uniqueId" : "JUDGE 7A05NRSS=f68cf2fa1e294972"
+    }
+  },
+  "organiser" : {
+    "KaqO8NFYVxN3vowJdBUMvlxEdrm2" : {
+      "id" : "KaqO8NFYVxN3vowJdBUMvlxEdrm2",
+      "name" : "Naveen"
+    },
+    "X0IpF4H6zeXnGFZbPgveyfr5nxb2" : {
+      "id" : "X0IpF4H6zeXnGFZbPgveyfr5nxb2",
+      "name" : "Kundan"
+    }
+  },
+  "participants" : {
+    "-LvdpIWJSPzYTeIdrZre" : {
+      "-LvdrRpCICPBYX2VdWJo" : {
+        "code" : "Participant 1",
+        "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+        "competetionName" : "Marketing",
+        "data" : {
+          "Round 1" : {
+            "-Lvdu-8fdLjfOl6xYAzN" : {
+              "JudgeName" : "Judge 1",
+              "score" : 55
+            },
+            "-LvdwVCb8mIUq0zMtbPd" : {
+              "JudgeName" : "Judge 2",
+              "score" : 66
+            },
+            "-LveaghX3CBB4HIq-hzM" : {
+              "JudgeName" : "judge 3",
+              "score" : 56
+            },
+            "-LvebhvK4qFLP_f1nFw_" : {
+              "JudgeName" : "judge3",
+              "score" : 0
+            },
+            "-LvecNcE_L4zAMTjbbYv" : {
+              "JudgeName" : "judge 4",
+              "score" : 54
+            },
+            "-Lved_vkB19q8uXwbPTy" : {
+              "JudgeName" : "judge 5",
+              "score" : 0
+            },
+            "-LveeSe2-d-fM4dQIFQL" : {
+              "JudgeName" : "judge 5"
+            },
+            "-LvefgS6dMqkMUkr1XSB" : {
+              "JudgeName" : "judge 6"
+            }
+          }
+        },
+        "email" : "naveenyadav",
+        "id" : 0,
+        "participantId" : "-LvdrRpCICPBYX2VdWJo",
+        "points" : 0,
+        "qualified" : true
+      },
+      "-LvdrTwwk21dPAP8N56i" : {
+        "code" : "Participant 2",
+        "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+        "competetionName" : "Marketing",
+        "data" : {
+          "Round 1" : {
+            "-Lvdu-SfurYxzXw5Uim9" : {
+              "JudgeName" : "Judge 1",
+              "score" : 57
+            },
+            "-LvdwVWjWvNnhoG6AG8V" : {
+              "JudgeName" : "Judge 2",
+              "score" : 81
+            },
+            "-Lveagrz_3gBkh_UV-nc" : {
+              "JudgeName" : "judge 3",
+              "score" : 58
+            },
+            "-Lvebi6BXFkCcg_JQZ3V" : {
+              "JudgeName" : "judge3",
+              "score" : 5
+            },
+            "-LvecNoQc3lNVPwxff0l" : {
+              "JudgeName" : "judge 4",
+              "score" : 0
+            },
+            "-Lveda6XkfRVYTVJ7wuD" : {
+              "JudgeName" : "judge 5",
+              "score" : 0
+            },
+            "-LveeSq76OlsDr1IRyLV" : {
+              "JudgeName" : "judge 5"
+            },
+            "-LvefgdKCMNSSBjSbaup" : {
+              "JudgeName" : "judge 6"
+            }
+          }
+        },
+        "email" : "naveenyadav",
+        "id" : 1,
+        "participantId" : "-LvdrTwwk21dPAP8N56i",
+        "points" : 0,
+        "qualified" : true
+      },
+      "-LvdrWBauZueizcpVdXZ" : {
+        "code" : "Participant 3",
+        "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+        "competetionName" : "Marketing",
+        "data" : {
+          "Round 1" : {
+            "-Lvdu-lf_WMTaGSPYZYR" : {
+              "JudgeName" : "Judge 1",
+              "score" : 53
+            },
+            "-LvdwVpfipXo3v2L4Ikb" : {
+              "JudgeName" : "Judge 2",
+              "score" : 27
+            },
+            "-Lveah1Sn14qYnB2Va4e" : {
+              "JudgeName" : "judge 3",
+              "score" : 8
+            },
+            "-LvebiHPc2zlOD3TCMlm" : {
+              "JudgeName" : "judge3",
+              "score" : 2
+            },
+            "-LvecO-g5iGoKG7OHHYp" : {
+              "JudgeName" : "judge 4",
+              "score" : 0
+            },
+            "-LvedaI0HkG2_DEQdH2U" : {
+              "JudgeName" : "judge 5",
+              "score" : 0
+            },
+            "-LveeT-RomwfG5xM_z1D" : {
+              "JudgeName" : "judge 5"
+            },
+            "-LvefgoS1bJrWAyaP2fC" : {
+              "JudgeName" : "judge 6"
+            }
+          }
+        },
+        "email" : "naveenyadav",
+        "id" : 2,
+        "participantId" : "-LvdrWBauZueizcpVdXZ",
+        "points" : 0,
+        "qualified" : true
+      },
+      "-Lvds-pigDspa7Ys4UbW" : {
+        "code" : "Participant 4",
+        "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+        "competetionName" : "Marketing",
+        "data" : {
+          "Round 1" : {
+            "-Lvdu-bWxCe9_oS1dPNI" : {
+              "JudgeName" : "Judge 1",
+              "score" : 80
+            },
+            "-LvdwVfVB3Gu_1LzZsC7" : {
+              "JudgeName" : "Judge 2",
+              "score" : 62
+            },
+            "-LveagxDU5kKjS_ZxsGz" : {
+              "JudgeName" : "judge 3",
+              "score" : 69
+            },
+            "-LvebiBR9l9A3rRiDvOm" : {
+              "JudgeName" : "judge3",
+              "score" : 0
+            },
+            "-LvecNtkUOAuwlB_CvO3" : {
+              "JudgeName" : "judge 4",
+              "score" : 0
+            },
+            "-LvedaCgG1cN1lKV7hh_" : {
+              "JudgeName" : "judge 5",
+              "score" : 0
+            },
+            "-LveeSvMnkDzj7IFEqMq" : {
+              "JudgeName" : "judge 5"
+            },
+            "-LvefgjJWaTzCznRZLV0" : {
+              "JudgeName" : "judge 6"
+            }
+          }
+        },
+        "email" : "naveenyadav",
+        "id" : 4,
+        "participantId" : "-Lvds-pigDspa7Ys4UbW",
+        "points" : 0,
+        "qualified" : true
+      },
+      "-Lvds2jlqve3nR1f_LAt" : {
+        "code" : "Participant 5",
+        "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+        "competetionName" : "Marketing",
+        "data" : {
+          "Round 1" : {
+            "-Lveah6ZhZhdeiMki1ew" : {
+              "JudgeName" : "judge 3",
+              "score" : 25
+            },
+            "-LvebiMkBwB9hVR3Hyu7" : {
+              "JudgeName" : "judge3",
+              "score" : 2
+            },
+            "-LvecO504QvK7ru750qa" : {
+              "JudgeName" : "judge 4",
+              "score" : 0
+            },
+            "-LvedaNRD_W1PIdKNxbu" : {
+              "JudgeName" : "judge 5",
+              "score" : 0
+            },
+            "-LveeT4cvG-SQG16gYJA" : {
+              "JudgeName" : "judge 5"
+            },
+            "-Lvefgtr-ythwOUaAjyA" : {
+              "JudgeName" : "judge 6"
+            }
+          }
+        },
+        "email" : "naveenyadav",
+        "id" : 5,
+        "participantId" : "-Lvds2jlqve3nR1f_LAt",
+        "points" : 0,
+        "qualified" : false
+      },
+      "-LvdsG9XTjZEtVu3V6vC" : {
+        "code" : "Participant 6",
+        "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+        "competetionName" : "Marketing",
+        "data" : {
+          "Round 1" : {
+            "-LveagmkcGkuwm819Ti9" : {
+              "JudgeName" : "judge 3",
+              "score" : 46
+            },
+            "-Lvebi-g5iqlDjHy2A4I" : {
+              "JudgeName" : "judge3",
+              "score" : 0
+            },
+            "-LvecNj5kgu_EXSKIzsI" : {
+              "JudgeName" : "judge 4",
+              "score" : 39
+            },
+            "-Lveda1KUaWSBToqA_yv" : {
+              "JudgeName" : "judge 5",
+              "score" : 0
+            },
+            "-LveeSkuJmQ0d71Xj6m7" : {
+              "JudgeName" : "judge 5"
+            },
+            "-LvefgYy9hqYq50VgXFM" : {
+              "JudgeName" : "judge 6"
+            }
+          }
+        },
+        "email" : "naveenyadav",
+        "id" : 6,
+        "participantId" : "-LvdsG9XTjZEtVu3V6vC",
+        "points" : 0,
+        "qualified" : false
+      }
+    }
+  },
+  "result" : {
+    "-LvdpIWJSPzYTeIdrZre" : {
+      "-LvdprsvqMVcFi1LNdmt" : {
+        "-LvdtzC0nuiwfSkRY-8N" : {
+          "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+          "judgeName" : "Judge 1",
+          "taskId" : "-LvdprsvqMVcFi1LNdmt",
+          "taskSecret" : "A05NRSS=",
+          "user" : [ {
+            "email" : "naveenyadav",
+            "id" : "-LvdrRpCICPBYX2VdWJo",
+            "mesg" : "Amazing work :)) great job!",
+            "skill" : [ {
+              "emoji" : 4,
+              "name" : "Creativity ",
+              "score" : 23
+            }, {
+              "emoji" : 2,
+              "name" : "Presentation",
+              "score" : 13
+            }, {
+              "emoji" : 4,
+              "name" : "Communication ",
+              "score" : 18
+            }, {
+              "emoji" : 1,
+              "name" : "Extra",
+              "score" : 1
+            } ],
+            "teamCode" : "Participant 1",
+            "total" : 55
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdsG9XTjZEtVu3V6vC",
+            "mesg" : "Amazing work!!",
+            "skill" : [ {
+              "emoji" : 2,
+              "name" : "Creativity ",
+              "score" : 11
+            }, {
+              "emoji" : 1,
+              "name" : "Presentation",
+              "score" : 5
+            }, {
+              "emoji" : 5,
+              "name" : "Communication ",
+              "score" : 21
+            }, {
+              "emoji" : 2,
+              "name" : "Extra",
+              "score" : 2
+            } ],
+            "teamCode" : "Participant 6",
+            "total" : 39
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdrTwwk21dPAP8N56i",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 3,
+              "name" : "Creativity ",
+              "score" : 14
+            }, {
+              "emoji" : 4,
+              "name" : "Presentation",
+              "score" : 30
+            }, {
+              "emoji" : 2,
+              "name" : "Communication ",
+              "score" : 9
+            }, {
+              "emoji" : 4,
+              "name" : "Extra",
+              "score" : 4
+            } ],
+            "teamCode" : "Participant 2",
+            "total" : 57
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-Lvds-pigDspa7Ys4UbW",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 5,
+              "name" : "Creativity ",
+              "score" : 26
+            }, {
+              "emoji" : 4,
+              "name" : "Presentation",
+              "score" : 29
+            }, {
+              "emoji" : 5,
+              "name" : "Communication ",
+              "score" : 21
+            }, {
+              "emoji" : 4,
+              "name" : "Extra",
+              "score" : 4
+            } ],
+            "teamCode" : "Participant 4",
+            "total" : 80
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdrWBauZueizcpVdXZ",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 5,
+              "name" : "Presentation",
+              "score" : 38
+            }, {
+              "emoji" : 3,
+              "name" : "Communication ",
+              "score" : 14
+            }, {
+              "emoji" : 1,
+              "name" : "Extra",
+              "score" : 1
+            } ],
+            "teamCode" : "Participant 3",
+            "total" : 53
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-Lvds2jlqve3nR1f_LAt",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 2,
+              "name" : "Creativity ",
+              "score" : 11
+            }, {
+              "emoji" : 3,
+              "name" : "Presentation",
+              "score" : 23
+            }, {
+              "emoji" : 2,
+              "name" : "Communication ",
+              "score" : 9
+            }, {
+              "emoji" : 4,
+              "name" : "Extra",
+              "score" : 4
+            } ],
+            "teamCode" : "Participant 5",
+            "total" : 47
+          } ]
+        },
+        "-LvdwV0_h_ktV627mQKZ" : {
+          "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+          "judgeName" : "Judge 2",
+          "taskId" : "-LvdprsvqMVcFi1LNdmt",
+          "taskSecret" : "A05NRSS=",
+          "user" : [ {
+            "email" : "naveenyadav",
+            "id" : "-LvdrRpCICPBYX2VdWJo",
+            "mesg" : "Test",
+            "skill" : [ {
+              "emoji" : 4,
+              "name" : "Creativity ",
+              "score" : 24
+            }, {
+              "emoji" : 3,
+              "name" : "Presentation",
+              "score" : 19
+            }, {
+              "emoji" : 5,
+              "name" : "Communication ",
+              "score" : 21
+            }, {
+              "emoji" : 2,
+              "name" : "Extra",
+              "score" : 2
+            } ],
+            "teamCode" : "Participant 1",
+            "total" : 66
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdsG9XTjZEtVu3V6vC",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 3,
+              "name" : "Creativity ",
+              "score" : 16
+            }, {
+              "emoji" : 5,
+              "name" : "Presentation",
+              "score" : 35
+            }, {
+              "emoji" : 3,
+              "name" : "Communication ",
+              "score" : 12
+            }, {
+              "emoji" : 5,
+              "name" : "Extra",
+              "score" : 5
+            } ],
+            "teamCode" : "Participant 6",
+            "total" : 68
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdrTwwk21dPAP8N56i",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 4,
+              "name" : "Creativity ",
+              "score" : 22
+            }, {
+              "emoji" : 5,
+              "name" : "Presentation",
+              "score" : 37
+            }, {
+              "emoji" : 4,
+              "name" : "Communication ",
+              "score" : 18
+            }, {
+              "emoji" : 4,
+              "name" : "Extra",
+              "score" : 4
+            } ],
+            "teamCode" : "Participant 2",
+            "total" : 81
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-Lvds-pigDspa7Ys4UbW",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 4,
+              "name" : "Creativity ",
+              "score" : 23
+            }, {
+              "emoji" : 3,
+              "name" : "Presentation",
+              "score" : 24
+            }, {
+              "emoji" : 3,
+              "name" : "Communication ",
+              "score" : 11
+            }, {
+              "emoji" : 4,
+              "name" : "Extra",
+              "score" : 4
+            } ],
+            "teamCode" : "Participant 4",
+            "total" : 62
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdrWBauZueizcpVdXZ",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 2,
+              "name" : "Presentation",
+              "score" : 13
+            }, {
+              "emoji" : 3,
+              "name" : "Communication ",
+              "score" : 13
+            }, {
+              "emoji" : 1,
+              "name" : "Extra",
+              "score" : 1
+            } ],
+            "teamCode" : "Participant 3",
+            "total" : 27
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-Lvds2jlqve3nR1f_LAt",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 2,
+              "name" : "Creativity ",
+              "score" : 8
+            }, {
+              "emoji" : 3,
+              "name" : "Presentation",
+              "score" : 22
+            }, {
+              "emoji" : 2,
+              "name" : "Communication ",
+              "score" : 8
+            }, {
+              "emoji" : 1,
+              "name" : "Extra",
+              "score" : 1
+            } ],
+            "teamCode" : "Participant 5",
+            "total" : 39
+          } ]
+        },
+        "-LveagAoWGZkCpi7OP12" : {
+          "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+          "judgeName" : "judge 3",
+          "taskId" : "-LvdprsvqMVcFi1LNdmt",
+          "taskSecret" : "A05NRSS=",
+          "user" : [ {
+            "email" : "naveenyadav",
+            "id" : "-LvdrRpCICPBYX2VdWJo",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 3,
+              "name" : "Creativity ",
+              "score" : 13
+            }, {
+              "emoji" : 4,
+              "name" : "Presentation",
+              "score" : 29
+            }, {
+              "emoji" : 3,
+              "name" : "Communication ",
+              "score" : 11
+            }, {
+              "emoji" : 3,
+              "name" : "Extra",
+              "score" : 3
+            } ],
+            "teamCode" : "Participant 1",
+            "total" : 56
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdsG9XTjZEtVu3V6vC",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 4,
+              "name" : "Creativity ",
+              "score" : 19
+            }, {
+              "emoji" : 2,
+              "name" : "Presentation",
+              "score" : 16
+            }, {
+              "emoji" : 2,
+              "name" : "Communication ",
+              "score" : 9
+            }, {
+              "emoji" : 2,
+              "name" : "Extra",
+              "score" : 2
+            } ],
+            "teamCode" : "Participant 6",
+            "total" : 46
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdrTwwk21dPAP8N56i",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 3,
+              "name" : "Creativity ",
+              "score" : 18
+            }, {
+              "emoji" : 3,
+              "name" : "Presentation",
+              "score" : 22
+            }, {
+              "emoji" : 4,
+              "name" : "Communication ",
+              "score" : 16
+            }, {
+              "emoji" : 2,
+              "name" : "Extra",
+              "score" : 2
+            } ],
+            "teamCode" : "Participant 2",
+            "total" : 58
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-Lvds-pigDspa7Ys4UbW",
+            "mesg" : "\n",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 5,
+              "name" : "Presentation",
+              "score" : 40
+            }, {
+              "emoji" : 5,
+              "name" : "Communication ",
+              "score" : 24
+            }, {
+              "emoji" : 5,
+              "name" : "Extra",
+              "score" : 5
+            } ],
+            "teamCode" : "Participant 4",
+            "total" : 69
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdrWBauZueizcpVdXZ",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 2,
+              "name" : "Communication ",
+              "score" : 7
+            }, {
+              "emoji" : 1,
+              "name" : "Extra",
+              "score" : 1
+            } ],
+            "teamCode" : "Participant 3",
+            "total" : 8
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-Lvds2jlqve3nR1f_LAt",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 5,
+              "name" : "Communication ",
+              "score" : 25
+            }, {
+              "emoji" : 0,
+              "name" : "Extra",
+              "score" : 0
+            } ],
+            "teamCode" : "Participant 5",
+            "total" : 25
+          } ]
+        },
+        "-LvebhoMbcKJh3QZp1Ti" : {
+          "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+          "judgeName" : "judge3",
+          "taskId" : "-LvdprsvqMVcFi1LNdmt",
+          "taskSecret" : "A05NRSS=",
+          "user" : [ {
+            "email" : "naveenyadav",
+            "id" : "-LvdrRpCICPBYX2VdWJo",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Communication ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Extra",
+              "score" : 0
+            } ],
+            "teamCode" : "Participant 1",
+            "total" : 0
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdsG9XTjZEtVu3V6vC",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Communication ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Extra",
+              "score" : 0
+            } ],
+            "teamCode" : "Participant 6",
+            "total" : 0
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdrTwwk21dPAP8N56i",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Communication ",
+              "score" : 0
+            }, {
+              "emoji" : 5,
+              "name" : "Extra",
+              "score" : 5
+            } ],
+            "teamCode" : "Participant 2",
+            "total" : 5
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-Lvds-pigDspa7Ys4UbW",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Communication ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Extra",
+              "score" : 0
+            } ],
+            "teamCode" : "Participant 4",
+            "total" : 0
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdrWBauZueizcpVdXZ",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Communication ",
+              "score" : 0
+            }, {
+              "emoji" : 2,
+              "name" : "Extra",
+              "score" : 2
+            } ],
+            "teamCode" : "Participant 3",
+            "total" : 2
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-Lvds2jlqve3nR1f_LAt",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Communication ",
+              "score" : 0
+            }, {
+              "emoji" : 2,
+              "name" : "Extra",
+              "score" : 2
+            } ],
+            "teamCode" : "Participant 5",
+            "total" : 2
+          } ]
+        },
+        "-LvecNWlflwhFzkU_h0_" : {
+          "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+          "judgeName" : "judge 4",
+          "taskId" : "-LvdprsvqMVcFi1LNdmt",
+          "taskSecret" : "A05NRSS=",
+          "user" : [ {
+            "email" : "naveenyadav",
+            "id" : "-LvdrRpCICPBYX2VdWJo",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 3,
+              "name" : "Creativity ",
+              "score" : 15
+            }, {
+              "emoji" : 3,
+              "name" : "Presentation",
+              "score" : 18
+            }, {
+              "emoji" : 4,
+              "name" : "Communication ",
+              "score" : 20
+            }, {
+              "emoji" : 1,
+              "name" : "Extra",
+              "score" : 1
+            } ],
+            "teamCode" : "Participant 1",
+            "total" : 54
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdsG9XTjZEtVu3V6vC",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 3,
+              "name" : "Creativity ",
+              "score" : 14
+            }, {
+              "emoji" : 2,
+              "name" : "Presentation",
+              "score" : 15
+            }, {
+              "emoji" : 2,
+              "name" : "Communication ",
+              "score" : 8
+            }, {
+              "emoji" : 2,
+              "name" : "Extra",
+              "score" : 2
+            } ],
+            "teamCode" : "Participant 6",
+            "total" : 39
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdrTwwk21dPAP8N56i",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Communication ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Extra",
+              "score" : 0
+            } ],
+            "teamCode" : "Participant 2",
+            "total" : 0
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-Lvds-pigDspa7Ys4UbW",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Communication ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Extra",
+              "score" : 0
+            } ],
+            "teamCode" : "Participant 4",
+            "total" : 0
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdrWBauZueizcpVdXZ",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Communication ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Extra",
+              "score" : 0
+            } ],
+            "teamCode" : "Participant 3",
+            "total" : 0
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-Lvds2jlqve3nR1f_LAt",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Communication ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Extra",
+              "score" : 0
+            } ],
+            "teamCode" : "Participant 5",
+            "total" : 0
+          } ]
+        },
+        "-Lved_pf4shFBDg_X-rr" : {
+          "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+          "judgeName" : "judge 5",
+          "taskId" : "-LvdprsvqMVcFi1LNdmt",
+          "taskSecret" : "A05NRSS=",
+          "user" : [ {
+            "email" : "naveenyadav",
+            "id" : "-LvdrRpCICPBYX2VdWJo",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Communication ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Extra",
+              "score" : 0
+            } ],
+            "teamCode" : "Participant 1",
+            "total" : 0
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdsG9XTjZEtVu3V6vC",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Communication ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Extra",
+              "score" : 0
+            } ],
+            "teamCode" : "Participant 6",
+            "total" : 0
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdrTwwk21dPAP8N56i",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Communication ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Extra",
+              "score" : 0
+            } ],
+            "teamCode" : "Participant 2",
+            "total" : 0
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-Lvds-pigDspa7Ys4UbW",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Communication ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Extra",
+              "score" : 0
+            } ],
+            "teamCode" : "Participant 4",
+            "total" : 0
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdrWBauZueizcpVdXZ",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Communication ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Extra",
+              "score" : 0
+            } ],
+            "teamCode" : "Participant 3",
+            "total" : 0
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-Lvds2jlqve3nR1f_LAt",
+            "mesg" : "",
+            "skill" : [ {
+              "emoji" : 0,
+              "name" : "Creativity ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Presentation",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Communication ",
+              "score" : 0
+            }, {
+              "emoji" : 0,
+              "name" : "Extra",
+              "score" : 0
+            } ],
+            "teamCode" : "Participant 5",
+            "total" : 0
+          } ]
+        },
+        "-LveeSZbJqfagUFAvZmp" : {
+          "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+          "judgeName" : "judge 5",
+          "taskId" : "-LvdprsvqMVcFi1LNdmt",
+          "taskSecret" : "A05NRSS=",
+          "user" : [ {
+            "email" : "naveenyadav",
+            "id" : "-LvdrRpCICPBYX2VdWJo",
+            "teamCode" : "Participant 1"
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdsG9XTjZEtVu3V6vC",
+            "teamCode" : "Participant 6"
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdrTwwk21dPAP8N56i",
+            "teamCode" : "Participant 2"
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-Lvds-pigDspa7Ys4UbW",
+            "teamCode" : "Participant 4"
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdrWBauZueizcpVdXZ",
+            "teamCode" : "Participant 3"
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-Lvds2jlqve3nR1f_LAt",
+            "teamCode" : "Participant 5"
+          } ]
+        },
+        "-LvefgMawFzv4Tekackt" : {
+          "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+          "judgeName" : "judge 6",
+          "taskId" : "-LvdprsvqMVcFi1LNdmt",
+          "taskSecret" : "A05NRSS=",
+          "user" : [ {
+            "email" : "naveenyadav",
+            "id" : "-LvdrRpCICPBYX2VdWJo",
+            "teamCode" : "Participant 1"
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdsG9XTjZEtVu3V6vC",
+            "teamCode" : "Participant 6"
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdrTwwk21dPAP8N56i",
+            "teamCode" : "Participant 2"
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-Lvds-pigDspa7Ys4UbW",
+            "teamCode" : "Participant 4"
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-LvdrWBauZueizcpVdXZ",
+            "teamCode" : "Participant 3"
+          }, {
+            "email" : "naveenyadav",
+            "id" : "-Lvds2jlqve3nR1f_LAt",
+            "teamCode" : "Participant 5"
+          } ]
+        }
+      }
+    }
+  },
+  "task" : {
+    "-LvdprsvqMVcFi1LNdmt" : {
+      "Live" : 1,
+      "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+      "competetionName" : "Marketing",
+      "name" : "Round 1",
+      "secretCode" : "A05NRSS=",
+      "skills" : [ {
+        "maxScore" : 30,
+        "name" : "Creativity "
+      }, {
+        "maxScore" : 40,
+        "name" : "Presentation"
+      }, {
+        "maxScore" : 25,
+        "name" : "Communication "
+      }, {
+        "maxScore" : 5,
+        "name" : "Extra"
+      } ],
+      "taskId" : "-LvdprsvqMVcFi1LNdmt",
+      "weightage" : 25
+    },
+    "-LvdpuA1SJZnSLKwMdkb" : {
+      "Live" : 1,
+      "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+      "competetionName" : "Marketing",
+      "name" : "Round 2",
+      "secretCode" : "VBEBX9W=",
+      "skills" : [ {
+        "maxScore" : 5,
+        "name" : "Create"
+      } ],
+      "taskId" : "-LvdpuA1SJZnSLKwMdkb",
+      "weightage" : 100
+    },
+    "-LvdqJTiTR3e9QD9J0YT" : {
+      "Live" : 0,
+      "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+      "competetionName" : "Marketing",
+      "name" : "Round 3",
+      "secretCode" : "KUFBPXA=",
+      "taskId" : "-LvdqJTiTR3e9QD9J0YT",
+      "weightage" : 100
+    },
+    "-LveNn53uAEr0_WpNB6H" : {
+      "Live" : 1,
+      "competetionId" : "-LvdpIWJSPzYTeIdrZre",
+      "competetionName" : "Marketing",
+      "name" : "Round 4",
+      "secretCode" : "781425",
+      "skills" : [ {
+        "maxScore" : 5,
+        "name" : "Wanko"
+      } ],
+      "taskId" : "-LveNn53uAEr0_WpNB6H",
+      "weightage" : 100
+    }
+  }
+}

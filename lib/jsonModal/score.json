@@ -1,0 +1,19 @@
+{
+    "judgeName": "naveen",
+    "taskSecret": "PROPAH",
+    "user": [{
+        "email": "naveenyadav@gmail.com",
+        "id": "1",
+        "name": "naveen",
+        "skill": [{
+            "emoji": 3,
+            "name": "skill1",
+            "score": 23
+        }, {
+            "emoji": 5,
+            "name": "skill2",
+            "score": 25
+        }],
+        "total": 48
+    }]
+}

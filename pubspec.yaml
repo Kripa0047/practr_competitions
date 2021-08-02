@@ -1,0 +1,127 @@
+name: practrCompetitions
+description: Organise, Participate and Judge Competitions
+
+# The following line prevents the package from being accidentally published to
+# pub.dev using `pub publish`. This is preferred for private packages.
+publish_to: "none" # Remove this line if you wish to publish to pub.dev
+
+# The following defines the version and build number for your application.
+# A version number is three numbers separated by dots, like 1.2.43
+# followed by an optional build number separated by a +.
+# Both the version and the builder number may be overridden in flutter
+# build by specifying --build-name and --build-number, respectively.
+# In Android, build-name is used as versionName while build-number used as versionCode.
+# Read more about Android versioning at https://developer.android.com/studio/publish/versioning
+# In iOS, build-name is used as CFBundleShortVersionString while build-number used as CFBundleVersion.
+# Read more about iOS versioning at
+# https://developer.apple.com/library/archive/documentation/General/Reference/InfoPlistKeyReference/Articles/CoreFoundationKeys.html
+version: 1.0.0+1
+
+environment:
+  sdk: ">=2.7.0 <3.0.0"
+
+dependencies:
+  flutter:
+    sdk: flutter
+  auto_size_text: ^2.1.0
+  carousel_pro: ^1.0.0
+  connectivity: ^0.4.6+2
+  csv: ^4.0.3
+  cupertino_icons: ^1.0.0
+  device_info: ^0.4.1
+  esys_flutter_share: ^1.0.2
+  fancy_dialog: ^1.0.3
+  firebase_auth: ^0.14.0+9
+  firebase_database: ^3.0.9
+  firebase_dynamic_links: ^0.5.0+9
+  firebase_messaging: ^6.0.9
+  flutter_country_picker: ^0.1.6
+  flutter_fluid_slider: ^1.0.2
+  flutter_launcher_icons: ^0.7.4
+  flutter_svg: ^0.19.0
+  flutter_swiper: ^1.1.6
+  fluttertoast: ^3.1.3
+  font_awesome_flutter: ^8.5.0
+  http: ^0.12.0+2
+  liquid_progress_indicator: ^0.3.2
+  marquee: ^1.3.1
+  numberpicker: ^1.1.0
+  page_transition: ^1.1.5
+  percent_indicator: ^2.1.1
+  permission_handler: ^4.0.0
+  qr_flutter: ^3.2.0
+  random_string: ^1.1.0
+  razorpay_flutter: ^1.1.1
+  shared_preferences: ^0.5.3+4
+  timer_builder: ^1.3.0
+  tutorial_coach_mark: ^0.3.0
+  url_launcher: ^5.4.1
+  vibration: ^1.2.4
+  # firebase_remote_config: ^0.3.1
+
+dev_dependencies:
+  flutter_test:
+    sdk: flutter
+
+flutter_icons:
+  android: true
+  ios: true
+  image_path_android: assets/icon/ios.png
+  image_path_ios: assets/icon/ios.png
+  adaptive_icon_background: assets/icon/ic_launcher.png
+  adaptive_icon_foreground: assets/icon/ic_launcher.png
+
+# For information on the generic Dart part of this file, see the
+# following page: https://dart.dev/tools/pub/pubspec
+# The following section is specific to Flutter.
+flutter:
+  # The following line ensures that the Material Icons font is
+  # included with your application, so that you can use the icons in
+  # the material Icons class.
+  uses-material-design: true
+  # To add assets to your application, add an assets section, like this:
+  assets:
+    - assets/
+    - assets/background/
+    - images/
+  # assets:
+  #   - images/a_dot_burr.jpeg
+  #   - images/a_dot_ham.jpeg
+  # An image asset can refer to one or more resolution-specific "variants", see
+  # https://flutter.dev/assets-and-images/#resolution-aware.
+  # For details regarding adding assets from package dependencies, see
+  # https://flutter.dev/assets-and-images/#from-packages
+  # To add custom fonts to your application, add a fonts section here,
+  # in this "flutter" section. Each entry in this list should have a
+  # "family" key with the font family name, and a "fonts" key with a
+  # list giving the asset and other descriptors for the font. For
+  # example:
+  fonts:
+    - family: GilroyLight
+      fonts:
+        - asset: fonts/Gilroy-Light.otf
+    - family: GilroyExtraBold
+      fonts:
+        - asset: fonts/Gilroy-ExtraBold.otf
+    - family: FontAwesome
+      fonts:
+        - asset: fonts/fontawesome.woff
+    - family: DMSerifDisplay
+      fonts:
+        - asset: fonts/DM-Serif-Display/DMSerifDisplay-Regular.ttf
+        - asset: fonts/DM-Serif-Display/DMSerifDisplay-Italic.ttf
+          style: italic
+  # fonts:
+  #   - family: Schyler
+  #     fonts:
+  #       - asset: fonts/Schyler-Regular.ttf
+  #       - asset: fonts/Schyler-Italic.ttf
+  #         style: italic
+  #   - family: Trajan Pro
+  #     fonts:
+  #       - asset: fonts/TrajanPro.ttf
+  #       - asset: fonts/TrajanPro_Bold.ttf
+  #         weight: 700
+  #
+  # For details regarding fonts from package dependencies,
+  # see https://flutter.dev/custom-fonts/#from-packages
