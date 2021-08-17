@@ -1,8 +1,13 @@
 import 'dart:async';
+import 'dart:convert';
+import 'dart:io';
 
+import 'package:csv/csv.dart';
+import 'package:csv/csv_settings_autodetection.dart';
 import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
+import 'package:flutter/services.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:practrCompetitions/Lang/English.dart';
@@ -11,6 +16,7 @@ import 'package:practrCompetitions/database/getTeamData.dart';
 import 'package:practrCompetitions/database/saveTeamData.dart';
 import 'package:practrCompetitions/modals/roundModal.dart';
 import 'package:practrCompetitions/modals/teamModal.dart';
+import 'package:practrCompetitions/resources/api/createParticipantApi.dart';
 import 'package:practrCompetitions/screens/Organiser/bottomsheet/dashBottomSheet.dart';
 import 'package:practrCompetitions/screens/Organiser/emptyState/emptyOrg.dart';
 import 'package:practrCompetitions/screens/Organiser/participant/participantDetail.dart';
@@ -18,6 +24,7 @@ import 'package:practrCompetitions/utils/styles.dart';
 import 'package:practrCompetitions/utils/widgets.dart';
 import 'package:tutorial_coach_mark/animated_focus_light.dart';
 import 'package:tutorial_coach_mark/tutorial_coach_mark.dart';
+import 'package:file_picker/file_picker.dart';
 
 class Participants extends StatefulWidget {
   List<TeamModal> particiList;
@@ -57,6 +64,58 @@ class _ParticipantsState extends State<Participants> {
           .child(partici.key)
           .set(partici.toJson());
       setState(() {});
+    }
+  }
+
+  loadCsvFromStorage() async {
+    try {
+      File result = await FilePicker.getFile(
+        allowedExtensions: ['csv'],
+        type: FileType.custom,
+      );
+      String path = result.path;
+      List<List> csvData = await loadingCsvData(path);
+      print(csvData);
+      print('--------------');
+    
+      List<String> newList = [...csvData.map((e) => e[0]?.toString())];
+      List<String> oldList = [...widget.particiList.map((e) => e.code)];
+      print(newList);
+      print(oldList);
+      List<String> finalList = [];
+      newList.forEach((p) {
+        if (!oldList.contains(p)) finalList.add(p);
+      });
+      print(finalList);
+
+      finalList.forEach((code) {
+        createParticipant(
+          context,
+          widget.particiList,
+          code,
+        );
+      });
+    } catch (e) {
+      print("================>CSV PARSE ERROR");
+      print(e);
+    }
+  }
+
+  Future<List<List<dynamic>>> loadingCsvData(String path) async {
+    try {
+      final csvFile = new File(path).openRead();
+      print("----------------X");
+      print(CsvToListConverter().convert(csvFile.toString()));
+      return await csvFile
+          .transform(utf8.decoder)
+          .transform(
+            CsvToListConverter(),
+          )
+          .toList();
+    } catch (e) {
+      print("===============>ERROR CSV READING");
+      print(e);
+      return [];
     }
   }
 
@@ -137,6 +196,16 @@ class _ParticipantsState extends State<Participants> {
             padding: EdgeInsets.only(top: cHeight / 50),
             child: ListView(
               children: <Widget>[
+                TextButton(
+                  onPressed: loadCsvFromStorage,
+                  child: Text(
+                    "Add from CSV",
+                    style: kSecondaryTextStyle.copyWith(color: primaryColor),
+                  ),
+                ),
+                SizedBox(
+                  height: 5,
+                ),
                 CupertinoSegmentedControl<int>(
                   children: {
                     0: Text(

@@ -51,7 +51,7 @@ Future<bool> checkJudgeExist(
       'Content-Type': 'application/json',
     };
     http.Response response = await http.post(
-      url,
+      Uri.parse(url),
       body: jsonEncode(body),
       headers: headers,
     );
