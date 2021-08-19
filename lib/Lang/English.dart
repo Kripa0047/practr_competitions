@@ -1,5 +1,5 @@
 //HomeScreen
-String helloText1 = "Go paperless with Practr";
+String helloText1 = "Go paperless with Competitions App";
 String helloText2 = "Share scores in\nexcel format";
 String helloText3 = "Organise competitions effortlessly";
 

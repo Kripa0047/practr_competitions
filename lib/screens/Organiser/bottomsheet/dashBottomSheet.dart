@@ -51,35 +51,35 @@ sheetItem(
       Container(
         height: 8,
       ),
-      ListTile(
-        // leading: new Icon(Icons.music_note),
-        onTap: () {
-          print("Inviting for participants.");
+      // ListTile(
+      //   // leading: new Icon(Icons.music_note),
+      //   onTap: () {
+      //     print("Inviting for participants.");
 
-          // Navigator.of(context).push(
-          //   MaterialPageRoute(
-          //     builder: (context) => InviteParticipants(),
-          //   ),
-          // );
-          Navigator.push(
-            context,
-            PageTransition(
-              type: PageTransitionType.bottomToTop,
-              child: InviteParticipants(particiList: particiList),
-            ),
-          );
-        },
-        leading: Icon(
-          Icons.group_add,
-          color: primaryColor,
-        ),
-        title: new Text(
-          'Invite Participants',
-          style: TextStyle(
-            color: primaryColor,
-          ),
-        ),
-      ),
+      //     // Navigator.of(context).push(
+      //     //   MaterialPageRoute(
+      //     //     builder: (context) => InviteParticipants(),
+      //     //   ),
+      //     // );
+      //     Navigator.push(
+      //       context,
+      //       PageTransition(
+      //         type: PageTransitionType.bottomToTop,
+      //         child: InviteParticipants(particiList: particiList),
+      //       ),
+      //     );
+      //   },
+      //   leading: Icon(
+      //     Icons.group_add,
+      //     color: primaryColor,
+      //   ),
+      //   title: new Text(
+      //     'Invite Participants',
+      //     style: TextStyle(
+      //       color: primaryColor,
+      //     ),
+      //   ),
+      // ),
       MasterScoreSheet(
         shareAvailable: shareAvailable,
       ),

@@ -89,11 +89,12 @@ class _ParticipantsState extends State<Participants> {
       print(finalList);
 
       finalList.forEach((code) {
-        createParticipant(
-          context,
-          widget.particiList,
-          code,
-        );
+        if(code.isNotEmpty)
+          createParticipant(
+            context,
+            widget.particiList,
+            code,
+          );
       });
     } catch (e) {
       print("================>CSV PARSE ERROR");
