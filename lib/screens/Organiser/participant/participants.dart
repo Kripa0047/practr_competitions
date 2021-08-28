@@ -77,7 +77,7 @@ class _ParticipantsState extends State<Participants> {
       List<List> csvData = await loadingCsvData(path);
       print(csvData);
       print('--------------');
-    
+
       List<String> newList = [...csvData.map((e) => e[0]?.toString())];
       List<String> oldList = [...widget.particiList.map((e) => e.code)];
       print(newList);
@@ -89,11 +89,12 @@ class _ParticipantsState extends State<Participants> {
       print(finalList);
 
       finalList.forEach((code) {
-        if(code.isNotEmpty)
+        if (code.isNotEmpty)
           createParticipant(
             context,
             widget.particiList,
             code,
+            isToast: false,
           );
       });
     } catch (e) {

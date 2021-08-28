@@ -7,8 +7,9 @@ import 'package:practrCompetitions/common/common.dart';
 Future<bool> createParticipant(
   BuildContext context,
   var particiList,
-  String code,
-) async {
+  String code, {
+  bool isToast = true,
+}) async {
   //check name exist or not
   bool uniqueCode = true;
   for (int i = 0; i < particiList?.length ?? 0; i++) {
@@ -25,15 +26,16 @@ Future<bool> createParticipant(
   }
 
   if (!uniqueCode) {
-    Fluttertoast.showToast(
-      msg: "Participant Already exist!!",
-      toastLength: Toast.LENGTH_SHORT,
-      gravity: ToastGravity.TOP,
-      timeInSecForIos: 5,
-      backgroundColor: Colors.black87,
-      textColor: Colors.white,
-      fontSize: 16.0,
-    );
+    if (isToast)
+      Fluttertoast.showToast(
+        msg: "Participant Already exist!!",
+        toastLength: Toast.LENGTH_SHORT,
+        gravity: ToastGravity.TOP,
+        timeInSecForIos: 5,
+        backgroundColor: Colors.black87,
+        textColor: Colors.white,
+        fontSize: 16.0,
+      );
     return false;
   }
 
@@ -61,26 +63,28 @@ Future<bool> createParticipant(
     await _database.child(participantId).set(body);
     orgParId++;
     print("New Participant Created!!!");
-    Fluttertoast.showToast(
-      msg: "$code Added",
-      toastLength: Toast.LENGTH_SHORT,
-      gravity: ToastGravity.TOP,
-      timeInSecForIos: 5,
-      backgroundColor: Colors.black87,
-      textColor: Colors.white,
-      fontSize: 16.0,
-    );
+    if (isToast)
+      Fluttertoast.showToast(
+        msg: "$code Added",
+        toastLength: Toast.LENGTH_SHORT,
+        gravity: ToastGravity.TOP,
+        timeInSecForIos: 5,
+        backgroundColor: Colors.black87,
+        textColor: Colors.white,
+        fontSize: 16.0,
+      );
     return true;
   } catch (e) {
-    Fluttertoast.showToast(
-      msg: "Data not saved.$e",
-      toastLength: Toast.LENGTH_SHORT,
-      gravity: ToastGravity.TOP,
-      timeInSecForIos: 5,
-      backgroundColor: Colors.black87,
-      textColor: Colors.white,
-      fontSize: 16.0,
-    );
+    if (isToast)
+      Fluttertoast.showToast(
+        msg: "Data not saved.$e",
+        toastLength: Toast.LENGTH_SHORT,
+        gravity: ToastGravity.TOP,
+        timeInSecForIos: 5,
+        backgroundColor: Colors.black87,
+        textColor: Colors.white,
+        fontSize: 16.0,
+      );
     return false;
   }
 }
