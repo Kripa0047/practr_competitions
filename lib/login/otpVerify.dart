@@ -6,12 +6,12 @@ import 'package:practrCompetitions/login/phone/OrgOtp.dart';
 import 'package:practrCompetitions/login/phone/OrgPhone.dart';
 
 String phoneNo = countryCode + organiserPhoneController.text;
-String smsCode;
-String verificationId;
+String smsCode = "";
+String verificationId = "";
 int resendCode;
 var contextHere;
 final PhoneCodeAutoRetrievalTimeout autoRetrieve = (String verId) {
-  verificationId = verId;
+  verificationId = verId ?? -1;
   print("auto000000000 retreive working");
 };
 
