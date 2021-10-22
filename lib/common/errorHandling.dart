@@ -33,7 +33,7 @@ copyDialog(
   String text,
 ) {
   String shareString =
-      'Hi! You’ve been invited to judge $orgCompetetionName. Download the Under 25 Competitions App and use secret code $text to login and judge this competition.';
+      'Hi! You’ve been invited to judge $orgCompetetionName. Download the Rethink Competitions App and use secret code $text to login and judge this competition.';
   okFunction() {
     Clipboard.setData(ClipboardData(text: text));
     Fluttertoast.showToast(
