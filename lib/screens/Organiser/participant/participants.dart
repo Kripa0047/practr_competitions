@@ -8,6 +8,7 @@ import 'package:firebase_database/firebase_database.dart';
 import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 import 'package:flutter/services.dart';
+import 'package:flutter_fluid_slider/flutter_fluid_slider.dart';
 import 'package:fluttertoast/fluttertoast.dart';
 import 'package:font_awesome_flutter/font_awesome_flutter.dart';
 import 'package:practrCompetitions/Lang/English.dart';
@@ -47,6 +48,7 @@ bool showAvailable = false;
 class _ParticipantsState extends State<Participants> {
   int currentIndex = 0;
   bool qualified = true;
+  int _value = 0;
 
   final FirebaseDatabase _database = FirebaseDatabase.instance;
 
@@ -121,6 +123,147 @@ class _ParticipantsState extends State<Participants> {
     }
   }
 
+  void updateParticiList(BuildContext context) {
+    if (this.qualified) {
+      List<TeamModal> qualifiedTeam = [];
+      this.widget.particiList.forEach((e) {
+        if (e.qualified) qualifiedTeam.add(e);
+      });
+      for (int i = qualifiedTeam.length - 1;
+          i >= (qualifiedTeam.length - this._value);
+          i--) {
+        this.updateParticipant(qualifiedTeam[i], false);
+      }
+    } else {
+      List<TeamModal> disqualifiedTeam = [];
+      this.widget.particiList.forEach((e) {
+        if (!e.qualified) disqualifiedTeam.add(e);
+      });
+      for (int i = 0; i < this._value; i++) {
+        this.updateParticipant(disqualifiedTeam[i], true);
+      }
+    }
+
+    Navigator.pop(context);
+    this.setState(() {
+      this._value = 0;
+    });
+  }
+
+  void openMoreMenu(BuildContext context) {
+    setState(() {
+      this._value = 0;
+    });
+    print("===============>MORE");
+    showDialog(
+      context: context,
+      builder: (BuildContext context) => StatefulBuilder(
+        builder: (context, setState) => Dialog(
+          child: Container(
+            padding: EdgeInsets.all(8),
+            clipBehavior: Clip.hardEdge,
+            decoration: BoxDecoration(
+              color: Colors.white,
+              borderRadius: BorderRadius.circular(8),
+            ),
+            child: Column(
+              mainAxisSize: MainAxisSize.min,
+              children: [
+                Text(
+                  "${this.qualified ? 'Disqualify' : 'Qualifiy'} $_value participants",
+                  style: kSecondaryTextStyle.copyWith(
+                    color: primaryColor,
+                  ),
+                ),
+                Text(
+                  "from ${this.qualified ? 'BOTTOM' : 'TOP'}",
+                  style: kSecondaryTextStyle.copyWith(
+                    color: primaryColor,
+                  ),
+                ),
+                SizedBox(
+                  height: 50,
+                ),
+                FluidSlider(
+                  value: this._value.toDouble(),
+                  onChanged: (double newValue) {
+                    setState(() {
+                      _value = newValue.round();
+                    });
+                  },
+                  min: 0,
+                  max: () {
+                    double num = 0;
+                    widget.particiList.forEach(
+                        (e) => {if (e.qualified == this.qualified) num++});
+                    print("===============> num $num");
+                    return num;
+                  }(),
+                ),
+                SizedBox(
+                  height: 20,
+                ),
+                Row(
+                  mainAxisAlignment: MainAxisAlignment.end,
+                  children: [
+                    ClipPath(
+                      clipBehavior: Clip.hardEdge,
+                      child: Material(
+                        color: Colors.white,
+                        borderRadius: BorderRadius.circular(5),
+                        child: InkWell(
+                          onTap: () {
+                            Navigator.pop(context);
+                          },
+                          child: Container(
+                            padding: EdgeInsets.all(5),
+                            clipBehavior: Clip.hardEdge,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            child: Text(
+                              "Cancel",
+                              style: kSecondaryTextStyle.copyWith(
+                                color: primaryColor,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                    ClipPath(
+                      clipBehavior: Clip.hardEdge,
+                      child: Material(
+                        borderRadius: BorderRadius.circular(5),
+                        color: primaryColor,
+                        child: InkWell(
+                          onTap: () => updateParticiList(context),
+                          child: Container(
+                            padding: EdgeInsets.all(5),
+                            clipBehavior: Clip.hardEdge,
+                            decoration: BoxDecoration(
+                              borderRadius: BorderRadius.circular(10),
+                            ),
+                            child: Text(
+                              "Confirm",
+                              style: kSecondaryTextStyle.copyWith(
+                                color: Colors.white,
+                              ),
+                            ),
+                          ),
+                        ),
+                      ),
+                    ),
+                  ],
+                )
+              ],
+            ),
+          ),
+        ),
+      ),
+    );
+  }
+
   @override
   Widget build(BuildContext context) {
     double _height = MediaQuery.of(context).size.height;
@@ -183,7 +326,7 @@ class _ParticipantsState extends State<Participants> {
                   ? Center(
                       child: CircularProgressIndicator(),
                     )
-                  : participantItem(),
+                  : participantItem(context),
             ),
           ],
         ),
@@ -191,18 +334,35 @@ class _ParticipantsState extends State<Participants> {
     );
   }
 
-  Widget participantItem() {
+  Widget participantItem(BuildContext context) {
     return widget.particiList.length == 0
         ? emptyPartici()
         : Container(
             padding: EdgeInsets.only(top: cHeight / 50),
             child: ListView(
               children: <Widget>[
-                TextButton(
-                  onPressed: loadCsvFromStorage,
-                  child: Text(
-                    "Add from CSV",
-                    style: kSecondaryTextStyle.copyWith(color: primaryColor),
+                Padding(
+                  padding: const EdgeInsets.symmetric(horizontal: 10),
+                  child: Row(
+                    mainAxisAlignment: MainAxisAlignment.spaceBetween,
+                    children: [
+                      TextButton(
+                        onPressed: loadCsvFromStorage,
+                        child: Text(
+                          "Add from CSV",
+                          style:
+                              kSecondaryTextStyle.copyWith(color: primaryColor),
+                        ),
+                      ),
+                      TextButton(
+                        onPressed: () => openMoreMenu(context),
+                        child: Text(
+                          "More",
+                          style:
+                              kSecondaryTextStyle.copyWith(color: primaryColor),
+                        ),
+                      ),
+                    ],
                   ),
                 ),
                 SizedBox(

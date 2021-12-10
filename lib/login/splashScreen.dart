@@ -26,7 +26,7 @@ class SplashScreenState extends State<AnimatedSplashScreen> {
   }
 
   startTime() async {
-    var _duration = new Duration(seconds: 0);
+    var _duration = new Duration(seconds: 2);
     return new Timer(_duration, navigationPage);
   }
 
@@ -61,44 +61,11 @@ class SplashScreenState extends State<AnimatedSplashScreen> {
   @override
   Widget build(BuildContext context) {
     return Scaffold(
-      body: Stack(
-        fit: StackFit.expand,
-        children: <Widget>[
-          Image.asset(
-            'images/back.png',
-            fit: BoxFit.cover,
-          ),
-          Image.asset(
-            'images/bstrip.png',
-            fit: BoxFit.fitWidth,
-            alignment: Alignment.bottomCenter,
-          ),
-          // Padding(
-          //   padding: const EdgeInsets.only(bottom: 10),
-          //   child: Align(
-          //     alignment: Alignment.bottomCenter,
-          //     // height: 50,
-          //     // width: 50,
-          //     // color: Colors.red,
-          //     child: Image.asset(
-          //       'assets/u25_logo_white.png',
-          //       fit: BoxFit.cover,
-          //       height: 75,
-          //       alignment: Alignment.bottomCenter,
-          //       color: Colors.white,
-          //     ),
-          //   ),
-          // ),
-          Container(
-            alignment: Alignment.bottomCenter,
-            padding: EdgeInsets.only(bottom: 15),
-            height: 50,
-            width: 50,
-            child: CircularProgressIndicator(
-              valueColor: AlwaysStoppedAnimation(Colors.white),
-            ),
-          ),
-        ],
+      backgroundColor: Colors.grey.shade900,
+      body: Center(
+        child: CircularProgressIndicator(
+          backgroundColor: Colors.grey.shade200,
+        ),
       ),
     );
   }
