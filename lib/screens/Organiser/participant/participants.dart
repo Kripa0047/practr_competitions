@@ -160,7 +160,7 @@ class _ParticipantsState extends State<Participants> {
       builder: (BuildContext context) => StatefulBuilder(
         builder: (context, setState) => Dialog(
           child: Container(
-            padding: EdgeInsets.all(8),
+            padding: EdgeInsets.all(12),
             clipBehavior: Clip.hardEdge,
             decoration: BoxDecoration(
               color: Colors.white,
@@ -231,18 +231,19 @@ class _ParticipantsState extends State<Participants> {
                         ),
                       ),
                     ),
+                    SizedBox(width: 5,),
                     ClipPath(
                       clipBehavior: Clip.hardEdge,
                       child: Material(
-                        borderRadius: BorderRadius.circular(5),
+                        borderRadius: BorderRadius.circular(30),
                         color: primaryColor,
                         child: InkWell(
                           onTap: () => updateParticiList(context),
                           child: Container(
-                            padding: EdgeInsets.all(5),
+                            padding: EdgeInsets.all(15),
                             clipBehavior: Clip.hardEdge,
                             decoration: BoxDecoration(
-                              borderRadius: BorderRadius.circular(10),
+                              borderRadius: BorderRadius.circular(30),
                             ),
                             child: Text(
                               "Confirm",
@@ -357,7 +358,7 @@ class _ParticipantsState extends State<Participants> {
                       TextButton(
                         onPressed: () => openMoreMenu(context),
                         child: Text(
-                          "More",
+                          "Manage",
                           style:
                               kSecondaryTextStyle.copyWith(color: primaryColor),
                         ),
